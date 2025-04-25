@@ -7,7 +7,7 @@ import requests  # FastAPIにリクエストを送るために追加
 # from botocore.exceptions import ClientError  # ★不要になったためコメントアウト
 
 # FastAPIのエンドポイントURL (環境変数から取得。なければデフォルトを使用)
-FASTAPI_ENDPOINT = os.environ.get("FASTAPI_ENDPOINT", "https://e8f0-35-194-164-86.ngrok-free.app/predict")
+FASTAPI_ENDPOINT = os.environ.get("FASTAPI_ENDPOINT", "https://e40b-35-194-164-86.ngrok-free.app/predict")
 
 # Lambda コンテキストからリージョンを抽出する関数
 def extract_region_from_arn(arn):
